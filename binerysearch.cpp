@@ -18,7 +18,10 @@ int binarySearch(int arr[], int size, int key) {
 int main() {
     int arr[] = {2, 4, 6, 8, 10, 12, 14};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int key = 10;
+    int key;
+
+    cout << "Enter element to search: ";
+    cin >> key;
 
     int result = binarySearch(arr, size, key);
 
